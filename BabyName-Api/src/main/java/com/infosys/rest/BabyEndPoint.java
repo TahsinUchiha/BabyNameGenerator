@@ -14,14 +14,22 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.infosys.domain.Baby;
+import com.infosys.domain.Validation;
 import com.infosys.service.BabyService;
 
 @RequestMapping("/Baby")
 @RestController
 public class BabyEndPoint {
+	
+	
 
 	@Autowired
 	private BabyService service;
+	
+	@GetMapping("/processName/{babyName}")
+	public Validation send(@PathVariable String babyName) {
+		return service.nameCheck(babyName);
+	}
 	
 	@GetMapping("/getAllBabies")
 	public Iterable<Baby> getAllBabies(){

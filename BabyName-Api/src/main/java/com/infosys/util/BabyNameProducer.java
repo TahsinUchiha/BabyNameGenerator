@@ -18,7 +18,7 @@ public class BabyNameProducer {
 	public String produce(Baby baby) {
 		pojoBaby.setBaby(baby.toString());
 		jmsTemplate.convertAndSend("Audit", pojoBaby);
-		return "";
+		return "${successful.message}";
 	}
 
 }

@@ -685,3 +685,33 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 11:15:55.558
 !MESSAGE executing callback sts4.classpath.fdKWoNHM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 12:36:26.646
+!MESSAGE Preparing classpath changed notification BabyConsumer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 12:36:26.662
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 12:36:26.670
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 12:36:26.675
+!MESSAGE executing callback sts4.classpath.fdKWoNHM BabyConsumer false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 12:36:26.686
+!MESSAGE executing callback sts4.classpath.fdKWoNHM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 12:36:47.478
+!MESSAGE Preparing classpath changed notification BabyConsumer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 12:36:47.491
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 12:36:47.498
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 12:36:47.521
+!MESSAGE executing callback sts4.classpath.fdKWoNHM BabyConsumer false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 12:36:47.530
+!MESSAGE executing callback sts4.classpath.fdKWoNHM SUCCESS [done]

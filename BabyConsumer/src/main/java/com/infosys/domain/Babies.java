@@ -43,7 +43,7 @@ public class Babies {
 
 	@Override
 	public String toString() {
-		return "Babies [_id=" + _id + ", baby=" + baby + ", date=" + date + "]";
+		return "Babies [baby=" + baby + ", date=" + date + "]";
 	}
 
 

@@ -3,6 +3,7 @@ package com.infosys.service;
 import java.util.Optional;
 
 import com.infosys.domain.Baby;
+import com.infosys.domain.Validation;
 
 public interface BabyService {
 
@@ -13,5 +14,7 @@ public interface BabyService {
 	void delete(Long id);
 
 	Optional<Baby> get(Long id);
+	
+	Validation nameCheck(String babyName);
 
 }
