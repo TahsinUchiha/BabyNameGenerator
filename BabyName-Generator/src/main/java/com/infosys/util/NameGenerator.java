@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class NameGenerator {
 	
 	public String nameGenerator() {
-		String[] defaultNames = {"Jo", "Pa", "Batma", "Jonath", "Nutell", "Ramb"};
+		String[] defaultNames = {"Jo", "Pa", "Batm", "Jonath", "Nutel", "Ram", "Jol"};
 		return defaultNames[(int)Math.floor(Math.random()*defaultNames.length)];
 	}
 

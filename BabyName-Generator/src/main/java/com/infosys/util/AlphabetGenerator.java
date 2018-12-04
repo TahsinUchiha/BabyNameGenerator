@@ -9,7 +9,7 @@ public class AlphabetGenerator {
 	
 	private final String LETTERS = "abcdefghijklmnopqrstuvwxyz";
 	
-	private final char[] ALPHANUMERIC = (LETTERS + LETTERS.toUpperCase() + "0123456789").toCharArray();
+	private final char[] ALPHANUMERIC = (LETTERS).toCharArray();
 	
 	public String generateRandomName(int length) {
 		
@@ -17,7 +17,7 @@ public class AlphabetGenerator {
 		
 		for(int i = 0; i<length; i++) {
 			
-			result.append(ALPHANUMERIC[new Random().nextInt( ALPHANUMERIC.length)]);
+			result.append(ALPHANUMERIC[new Random().nextInt(ALPHANUMERIC.length)]);
 		}
 		
 		return result.toString();

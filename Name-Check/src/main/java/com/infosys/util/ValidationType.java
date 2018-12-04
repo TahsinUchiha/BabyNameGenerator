@@ -16,16 +16,16 @@ public class ValidationType {
 
 	
 	public Validation checkName(String babyName) {
-		String name = babyName.substring(0, 7);
+		String name = babyName;
 		switch(name) {
-		case "A": babyName = "Batman";
+		case "Batman": 
 			return new Validation(invalidMessage, false);
-		case "B": babyName = "Nutella";
+		case "Nutella":
 			return new Validation(invalidMessage, false);
-		case "C": babyName = "Rambo";
+		case "Rambo": 
 			return new Validation(invalidMessage, false);
 		default:
-			return new Validation(validMessage,true);
+			return new Validation(validMessage, true);
 			
 		}
 	}
