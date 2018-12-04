@@ -26,7 +26,7 @@ public class Validation {
 	
 	@Override
 	public String toString() {
-		return "Validation [validationId=" + validationId + ", message=" + message + ", valid=" + valid + "]";
+		return "Validation [message=" + message + "]";
 	}
 
 	public String getMessage() {

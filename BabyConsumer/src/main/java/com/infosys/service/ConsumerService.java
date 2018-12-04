@@ -18,6 +18,10 @@ public class ConsumerService {
 		this.consumerRepo = persist;
 	}
 	
+	public Iterable<Babies> getAll() {
+		return consumerRepo.findAll();
+	}
+	
 	public Babies add(Babies baby) {
 		return consumerRepo.save(baby);
 	}

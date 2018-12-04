@@ -19,10 +19,10 @@ public class APICaller {
 	private BabyNameProducer producer;
 	
 	
-	@Value("http://BabyName-Generator:8080/" + "generate")
+	@Value("http://localhost:8081/" + "generate")
 	private String babyURL;
 	
-	@Value("http://BabyName-Generator:8080/" + "getValidation/")
+	@Value("http://localhost:8082/" + "getValidation/")
 	private String validationURL;
 	
 	public String getBabyName() {

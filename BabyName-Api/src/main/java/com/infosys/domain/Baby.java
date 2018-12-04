@@ -12,7 +12,6 @@ public class Baby {
 	@Id
 	@GeneratedValue
 	private Long babyId;
-	@Id
 	private String babyName;
 	@OneToOne(cascade = CascadeType.ALL)
 	private Validation validation;
@@ -45,9 +44,11 @@ public class Baby {
 	}
 
 	
+	
+
 	@Override
 	public String toString() {
-		return "Baby [babyId=" + babyId + ", babyName=" + babyName + "]";
+		return "Baby [babyId=" + babyId + ", babyName=" + babyName + ", validation=" + validation + "]";
 	}
 
 	public Baby() {
