@@ -17,10 +17,6 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class BabyConsumerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BabyConsumerApplication.class, args);
-	}
-	
 	@Bean
 	public JmsListenerContainerFactory<?> myFactory(ConnectionFactory connectionFactory,
 			DefaultJmsListenerContainerFactoryConfigurer configurer) {
@@ -41,5 +37,9 @@ public class BabyConsumerApplication {
 	public RestTemplate restTemplate(RestTemplateBuilder builder) {
 		return builder.build();
 }
+	
+	public static void main(String[] args) {
+		SpringApplication.run(BabyConsumerApplication.class, args);
+	}
 	
 }

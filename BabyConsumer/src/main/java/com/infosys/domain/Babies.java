@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import org.bson.types.ObjectId;
 
 public class Babies {
-	
+
 	@Id
 	public ObjectId _id;
 	private String baby;
@@ -22,8 +22,6 @@ public class Babies {
 	public void setDate(String date) {
 		this.date = date;
 	}
-
-
 
 	public String get_id() {
 		return _id.toHexString();
@@ -43,8 +41,7 @@ public class Babies {
 
 	@Override
 	public String toString() {
-		return "Babies [baby=" + baby + ", date=" + date + "]";
+		return "PojoBaby [baby=" + baby + ", date=" + date + "]";
 	}
-
 
 }
