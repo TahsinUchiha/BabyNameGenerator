@@ -570,3 +570,118 @@ org.apache.http.TruncatedChunkException: Truncated chunk ( expected size: 65536;
 	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:178)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-12-04 10:25:53.184
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo(SpringBootJavaHoverProvider.java:35)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:173)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:28:09.093
+!MESSAGE Preparing classpath changed notification BabyName-Api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:28:09.102
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:28:09.125
+!MESSAGE executing callback sts4.classpath.XgTxACMv BabyName-Api true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:28:09.416
+!MESSAGE executing callback sts4.classpath.XgTxACMv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:29:11.226
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XgTxACMv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:29:11.272
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XgTxACMv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:29:11.277
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:29:11.283
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XgTxACMv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.834
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fdKWoNHM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.839
+!MESSAGE subscribing to classpath changes: sts4.classpath.fdKWoNHM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.844
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.849
+!MESSAGE subsribers = [sts4.classpath.fdKWoNHM]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.854
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.859
+!MESSAGE project Name-Check ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.864
+!MESSAGE Preparing classpath changed notification Name-Check
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.869
+!MESSAGE project BabyName-Api ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.874
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.879
+!MESSAGE project BabyName-Api SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.884
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.889
+!MESSAGE project BabyName-Generator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.894
+!MESSAGE executing callback sts4.classpath.fdKWoNHM Name-Check false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.899
+!MESSAGE project BabyName-Generator SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.905
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:24.910
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fdKWoNHM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:32:25.241
+!MESSAGE executing callback sts4.classpath.fdKWoNHM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:48:37.886
+!MESSAGE Preparing classpath changed notification BabyName-Generator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:48:37.918
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:48:37.923
+!MESSAGE executing callback sts4.classpath.fdKWoNHM BabyName-Generator true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 10:48:37.929
+!MESSAGE executing callback sts4.classpath.fdKWoNHM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 11:15:55.511
+!MESSAGE Preparing classpath changed notification BabyName-Generator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 11:15:55.528
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 11:15:55.537
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 11:15:55.544
+!MESSAGE executing callback sts4.classpath.fdKWoNHM BabyName-Generator false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-04 11:15:55.558
+!MESSAGE executing callback sts4.classpath.fdKWoNHM SUCCESS [done]

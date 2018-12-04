@@ -1,2 +1,8 @@
 1543915121735	Rename package 'com.infosys.BabyNameApi'
 1543915210313	Rename type 'BabyName'
+1543915976287	Extract interface 'BabyService'
+1543921214427	Delete element
+1543921533793	Encapsulate field 'baby'
+1543921538735	Encapsulate field 'date'
+1543921680263	Encapsulate field 'message'
+1543921685230	Encapsulate field 'valid'
