@@ -16,13 +16,13 @@ public class ValidationType {
 
 	
 	public Validation checkName(String babyName) {
-		String name = babyName;
-		switch(name) {
-		case "Batman": 
+		String lowerCase = babyName.toLowerCase();
+		switch(lowerCase) {
+		case "batman": 
 			return new Validation(invalidMessage, false);
-		case "Nutella":
+		case "nutella":
 			return new Validation(invalidMessage, false);
-		case "Rambo": 
+		case "rambo": 
 			return new Validation(invalidMessage, false);
 		default:
 			return new Validation(validMessage, true);
